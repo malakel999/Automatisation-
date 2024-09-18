@@ -41,11 +41,11 @@ def verifier_factures_en_attente():
         msg['Subject'] = email_subject
         msg.attach(MIMEText(alerte_texte, 'plain'))
 
-        # Configuration du serveur SMTP (exemple pour Gmail)
+        # Configuration du serveur SMTP pour Gmail
         smtp_server = 'smtp.gmail.com'
         smtp_port = 587
         smtp_username = 'elbakalimalak312@gmail.com'
-        smtp_password = 'Malak2003'  # Remplacez par votre mot de passe d'application
+        smtp_password = '*****'  
 
         # Envoyer l'email
         try:

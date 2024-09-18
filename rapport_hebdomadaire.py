@@ -87,7 +87,7 @@ def envoyer_rapport_hebdomadaire():
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587
     smtp_username = 'Malak El Bakali '
-    smtp_password = 'Malak2003'  # Remplacez par le mot de passe de votre compte email ou le mot de passe d'application
+    smtp_password = '******'
 
     # Envoyer l'email
     try:
